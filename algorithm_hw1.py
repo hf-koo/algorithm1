@@ -66,3 +66,21 @@ print(leap_year(2016))
 
 
 ## Level 3
+# Fibonacci
+
+def generate_fibonacci_sequence(n: int):
+    fib_sequence = [0, 1]
+    for i in range(2, n):
+        fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
+    return fib_sequence
+
+print(generate_fibonacci_sequence(5))
+
+
+
+
+
+
+
+
+
