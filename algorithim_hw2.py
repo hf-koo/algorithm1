@@ -63,7 +63,7 @@ print(repeat_digits("M3i1m2o"))
 
 def shortcut(s: str):
     result = ""
-    vowels = {'a', 'e', 'i', 'o', 'u'}
+    vowels = ['a', 'e', 'i', 'o', 'u']
     for char in s:
         if char not in vowels:
            result += char
