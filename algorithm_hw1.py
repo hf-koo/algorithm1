@@ -74,7 +74,7 @@ def generate_fibonacci_sequence(n: int):
         fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
     return fib_sequence
 
-print(generate_fibonacci_sequence(5))
+print(generate_fibonacci_sequence(7))
 
 
 
