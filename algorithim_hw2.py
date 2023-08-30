@@ -15,10 +15,12 @@ print(reverse_integer(-105))
 
 
 def are_anagrams(s1: str, s2: str):
-    return sorted(s1) == sorted(s2)
+    str1 = s1.lower()
+    str2 = s2.lower()
+    return sorted(str1) == sorted(str2)
 
 
-print(are_anagrams("car", "rac"))
+print(are_anagrams("beet", "teeb"))
 
 
 
