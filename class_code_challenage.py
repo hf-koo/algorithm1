@@ -24,3 +24,38 @@
 # print(largest_sum(test_list))
 
 
+
+# def sum_and_mult(arr:list):
+#     arr_sum = 0
+#     arr_multi = 1
+#
+#     for element in arr:
+#         arr_sum += element
+#         arr_multi *= element
+#
+#     print(arr)
+#     print([arr_sum, arr_multi])
+#
+# sum_and_mult([1,7,3])
+
+# def max_item_index(arr:list):
+#     max_item = arr[0]
+#     max_index = 0
+#     for i in range(1, len(arr)):
+#         if arr[i] > max_item:
+#             max_item = arr[i]
+#             max_index = i
+#
+#     return [max_index, max_item]
+#
+# print(max_item_index([1, 45, 33, 76, 9, 10]))
+
+# def sum_btw_min_max(arr:list):
+#
+#     for i in range(1, len(arr)):
+
+
+
+
+
+
